@@ -74,8 +74,4 @@ public class Q1 {
         else
             return false;
     }
-    
-    
-   
-    
 }
