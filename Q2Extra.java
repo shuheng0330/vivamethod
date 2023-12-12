@@ -21,7 +21,7 @@ public class Q2Extra {
         System.out.printf("%.3f\n", median2);
     }
     
-    public static double unsortedArray(double[] a, double[] b) {
+    public static double unsortedArray(double[] a, double[] b) { //merge
         double[] mergedArray = new double[a.length + b.length];
         
         // Merge both arrays
@@ -49,7 +49,7 @@ public class Q2Extra {
         return m;
     }
     
-    public static double getMedian(double[] a) {
+    public static double getMedian(double[] a) { //get the median
         double median;
         int n = a.length;
         if (n % 2 == 0) {
