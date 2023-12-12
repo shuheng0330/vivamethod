@@ -5,7 +5,7 @@ public class Q1Exttra {
         Scanner input=new Scanner(System.in);
         System.out.print("Enter a password:");
         String password=input.next();
-        boolean validpassword=IsPasswordValid(password);
+        boolean validpassword=IsPasswordValid(password); //method call
         System.out.println(validpassword);
     }
     public static boolean IsPasswordValid(String p){
