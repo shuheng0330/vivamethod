@@ -6,7 +6,7 @@ public class Q1Exttra {
         System.out.print("Enter a password:");
         
         String password=input.next();
-        boolean validpassword=IsPasswordValid(password); //method call
+        boolean validpassword=IsPasswordValid(password); //call the mthod with password
         System.out.println(validpassword);
     }
     public static boolean IsPasswordValid(String p){
@@ -15,7 +15,7 @@ public class Q1Exttra {
         int digit=0;
         int special=0;
         for (int i=0;i<p.length();i++){
-            char a=p.charAt(i);
+            char a=p.charAt(i); //declare a to retrieve the character at i-th position in the p
             if (Character.isUpperCase(a))
                 upper++;
             if (Character.isLowerCase(a))
