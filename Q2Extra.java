@@ -5,7 +5,6 @@
 package vivamethod;
 
 public class Q2Extra {
-
     public static void main(String[] args) {
         double[] Array1 = {5.2, 2.1, 17.2};
         double[] Array2 = {1.3, 2.4, 2.1, 11.1};
@@ -61,4 +60,3 @@ public class Q2Extra {
     }
 }
 
-   
