@@ -4,6 +4,7 @@ public class Q1Exttra {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         System.out.print("Enter a password:");
+        
         String password=input.next();
         boolean validpassword=IsPasswordValid(password); //method call
         System.out.println(validpassword);
@@ -27,8 +28,7 @@ public class Q1Exttra {
         if (p.length()>=8 && upper>=1 && lower>=1 && digit>=3 && special==1)
             return true;
         
-        return false;
+        return false; 
 }
 }
-    
 
