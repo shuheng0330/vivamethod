@@ -10,9 +10,9 @@ public class Q3 {
         System.out.println("Enter six values: ");
         String[]numbers=new String[6];
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = sc.nextLine();
+            numbers[i] = sc.nextLine();    //read the inputs and store in array named 'numbers'
         }
-        StringArray(numbers);
+        StringArray(numbers);  //mehod to display the number
         
         //Call the method to assess numeric validity
         boolean[]output=printValidity(numbers);
